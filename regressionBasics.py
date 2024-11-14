@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-data=pd.read_csv('multiple_linear_regression_dataset.csv')
+data=pd.read_excel("Real estate valuation data set.xlsx")
 
 X=data.iloc[:,:-1].values
 Y=data.iloc[:,-1].values
